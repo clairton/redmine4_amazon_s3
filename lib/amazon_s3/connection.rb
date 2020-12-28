@@ -14,7 +14,7 @@ module AmazonS3
           :region => @@config.region
         }
 
-        if !@@config.endpoint.empty? and !@@config.endpoint.nil? do
+        if !@@config.endpoint.empty? && !@@config.endpoint.nil?
           options[:endpoint] = @@config.endpoint
         end
 
